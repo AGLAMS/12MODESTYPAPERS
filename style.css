@@ -1,0 +1,91 @@
+/* General body styling with background */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the image covers the whole page */
+    color: white;
+    text-align: center;
+  }
+  
+  /* Navigation Bar Styling */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  nav ul li a:hover {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+  }
+  
+  /* Header Styling */
+  header {
+    padding: 50px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Button Container Styling */
+  .button-container {
+    margin: 30px 0;
+  }
+  
+  /* Button Styling */
+  .button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: black;
+    background-color: yellow;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+  }
+  
+  .button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Footer Styling */
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+  }
+
+  /* Header Styling with Class Photo Background */
+header {
+    padding: 50px 0;
+    background: url('Modesty.jpg') no-repeat center center;
+    background-size: cover; /* Ensures the photo covers the entire header */
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Adds a shadow to text for better readability */
+    text-align: center;
+  }
+  
+  /* Optional: Adjust the height of the header to fit the photo better */
+  header h1, header p {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  
