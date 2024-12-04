@@ -9,8 +9,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(to right, black, rgb(60, 59, 59));
-  color: white;
+ background: url('Modesty.jpg') no-repeat center center;  color: white;
   padding: 40px 0;
   text-align: center;
 }
